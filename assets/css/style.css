@@ -1,27 +1,25 @@
-.crystals{
+.crystals {
 	display: flex;
-	justify-content: space-around;
+	justify-content: spacearound;
 	align-items: center;
 }
 
-.crystal{
-	border:1px solid green;
-	height:200px;
+.crystal {
+	border: 1px solid green;
+	height: 200px;
 	width: 200px;
 	border-radius: 4px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 	transition: box-shadow 1s, transform 1s;
 }
 
-.crystal:hover{
+.crystal:hover {
 	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
-	transform: translate(5px,80px);
+	transform: translate(5px, 80px);
 	cursor: pointer;
 	transition: box-shadow 1s, transform 1s;
-
-
 }
 
-img{
-	width:50px;
+img {
+	width: 50px;
 }
