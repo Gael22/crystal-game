@@ -17,7 +17,7 @@ var resetAndStart = function () {
 			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScsW9qA1q4ipXnKBeuWBhnJE_oLoX0bc22Ha6YodAafpFBEbAj', 
 			'https://static.turbosquid.com/Preview/2014/07/08__10_08_09/Crystals0010.jpgc22b2831-ae7a-4cb6-b4ac-612aa7f35ad7Original.jpg'];
 		
-	randomResult = Math.floor(Math.random() * 90 ) + 30
+	randomResult = Math.floor(Math.random() * 90 ) + 30;
 
 
 	$("#result").html('Random Result: ' + randomResult);
